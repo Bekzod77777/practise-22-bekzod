@@ -1,0 +1,276 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+.container {
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.heading-1 {
+  padding-top: 50px;
+  padding-bottom: 32px;
+  font-weight: 800;
+  font-size: 55px;
+  line-height: 60px;
+  color: #000000;
+}
+
+.title ul {
+  display: flex;
+  padding-bottom: 48px;
+}
+
+.title li {
+  list-style-type: none;
+  padding-right: 70px;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 30px;
+  color: #000000;
+  &:hover {
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 30px;
+    color: #a8a8a8;
+    transition: 0.5s;
+  }
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  width: 384px;
+  h3 {
+    padding: 24px 32px 9px;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 32px;
+    color: #000000;
+  }
+  p {
+    padding-left: 32px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    color: #000000;
+  }
+  .card-bottom {
+    display: flex;
+    p,
+    h2 {
+      padding-top: 77px;
+    }
+    p {
+      padding-right: 7px;
+    }
+    h2 {
+      padding-right: 56px;
+      font-weight: 700;
+      font-size: 11px;
+      line-height: 22px;
+      letter-spacing: 0.17em;
+      text-transform: uppercase;
+      color: #000000;
+    }
+    img {
+      padding-bottom: 24px;
+      padding-right: 20px;
+    }
+  }
+  #card-bottom {
+    p,
+    h2 {
+      padding-top: 50px;
+    }
+    img {
+      margin-top: -30px;
+    }
+  }
+}
+
+#card-1 {
+  background-image: url(../images/туризм-1.png);
+  background-repeat: no-repeat;
+}
+
+#card-2 {
+  background-image: url(../images/юриспруденция-1.png);
+  background-repeat: no-repeat;
+}
+
+#card-3 {
+  background-image: url(../images/юриспруденция-1.png);
+  background-repeat: no-repeat;
+}
+
+#card-4 {
+  background-image: url(../images/Журналистика-1.png);
+  background-repeat: no-repeat;
+}
+
+#card-5 {
+  background-image: url(../images/Медицинская\ оптика-1.png);
+  background-repeat: no-repeat;
+}
+
+#card-6 {
+  background-image: url(../images/реклама\ и\ связи\ с\ общественностью-1.png);
+  background-repeat: no-repeat;
+}
+
+.section-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 140px;
+  margin-top: 20px;
+  border: 1px solid #ebebeb;
+  h3 {
+    padding: 10px 0;
+    padding-right: 10px;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 22px;
+    letter-spacing: 0.17em;
+    text-transform: uppercase;
+    color: #000000;
+  }
+}
+
+.diplom {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+  .diplom-left {
+    a {
+      text-decoration: none;
+    }
+    h1 {
+      padding-bottom: 27px;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 44px;
+      line-height: 51px;
+      color: #000000;
+    }
+    p {
+      padding-bottom: 39px;
+      max-width: 511px;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 40px;
+      color: #000000;
+    }
+    ul {
+      display: flex; 
+      padding-bottom: 14px; 
+      li {
+        list-style-type: none;
+        padding-right: 120px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 32px;
+        color: #A8A8A8;
+      }
+      li:hover {
+        color: #000000;
+        transition: 0.5s;
+      }
+    }
+    .line {
+      width: 592px;
+      border-bottom: 1px solid #DFDFDE;
+    }
+  }
+}
+
+.student-top {
+  h1 {
+    padding-bottom: 50px;
+    width: 420px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 51px;
+    color: #000000;
+  }
+}
+
+.student-cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-bottom: 32px;
+  .student-card {
+    background: linear-gradient(180deg, #e5e5e5 61.47%, rgba(245, 245, 245, 0) 97.2%);
+  }
+  p {
+    max-width: 409px;
+    padding: 33px 40px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #000000;
+  }
+}
+
+.social-medias {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+  .social-media-titles {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+    img {
+      padding-right: 14px;
+    }
+    h3 {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 22px;
+      letter-spacing: 0.01em;
+      color: #000000;
+    }
+    p {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 22px;
+      color: #787878;
+    }
+  }
+  .social-media-btn {
+    margin-left: 100px;
+    width: 180px;
+    p {
+      padding: 5px 10px;
+      border: 1px solid #EBEBEB;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 11px;
+      line-height: 22px;
+      letter-spacing: 0.17em;
+      text-transform: uppercase;
+      color: #000000;
+    }
+  }
+}
+
+
